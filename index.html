@@ -1,23 +1,25 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html class="no-js">
 
-<div class="home">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Daniel Newton</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-  <h1 class="page-heading">Posts</h1>
+<body>
+  <script src="" async defer></script>
+  <h1>Hello!</h1>
+  <p>
+    My name is Daniel Newton. I'm a software developer with 7 years of experience.
+    I'm currently developing Windows and mobile applications for Dynetics in Huntsville, AL.
+    I'm wrapping up my Master's Degree in Computer Engineering, expecting to finish May 2020!<br><br>
+    For more of my work, see my <a href="https://github.com/dan0005/Hurricane-Cemetery">site for Hurricane Cemetary</a>.
+  </p>
+  <a href="files/DanielNewtonResume.pdf">Download my resume!</a>
+</body>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</html>
