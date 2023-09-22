@@ -1,6 +1,6 @@
-export const NAME = "Tim Plette"
+export const NAME = "Daniel Newton"
 
-export const JOB_TITLE = "Website Portfolio Designer";
+export const JOB_TITLE = "Cloud Wizard";
 
 export const DESC = 
-`Easy to use portfolio website template: Bring your job hunt or admission app to life!`
+`Certified Cloud Developer | Full Stack Problem Solver | Cleared Technical Leader`

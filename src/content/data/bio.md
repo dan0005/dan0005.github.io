@@ -1,6 +1,6 @@
 ---
 slug: "/bio"
-title: "Who is Tim Plette?"
+title: "Who is Daniel Newton?"
 page: "bio"
 ---
 
