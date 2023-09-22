@@ -6,11 +6,11 @@ import { PiYoutubeLogoFill } from "react-icons/pi"
 export const icons = [
     { 
         name: <FaLinkedin size={30} />,
-        href: 'https://www.linkedin.com/posts/joshuatbeck_website-resume-opensourcesoftware-activity-7090107148017266688-eQxH'
+        href: 'https://www.linkedin.com/in/daniel-newton-dev/'
     },
     { 
         name: <FaGithub size={30} />,
-        href: 'https://github.com/Josh-Beck/Portfolio-Website-Template'
+        href: 'https://github.com/dan0005/'
     },
     {
         name: <SiHackthebox size={30} />,

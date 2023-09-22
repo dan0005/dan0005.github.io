@@ -5,15 +5,15 @@
 @layer components {
     /* CHANGE COLORS BELOW */
     .primary-color-text {
-        @apply text-green-700;
+        @apply text-sky-800;
     }
 
     .primary-color-bg {
-        @apply bg-green-700;
+        @apply bg-sky-800;
     }
 
     .secondary-color-text {
-        @apply text-green-900;
+        @apply text-sky-950;
     }
 
     .tertiary-color-text {
