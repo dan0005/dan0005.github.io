@@ -8,7 +8,7 @@ import { linkInformation } from "../content/site/links"
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function SideBarLayout(props) {
-    return (<div className="bg-white flex flex-col h-screen justify-between antialiased">
+    return (<div className="flex flex-col h-screen justify-between antialiased">
             <Head />
             <div className="min-h-screen w-screen overflow-x-auto hidden lg:flex paragraph-color-bg">
                 {/* Left bar*/}

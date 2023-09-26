@@ -31,6 +31,7 @@ module.exports = {
               name: `content`,
               path: `${__dirname}/src/content/data/`,
             },
-        }
+        },
+        '@skagami/gatsby-plugin-dark-mode'
     ],
 }

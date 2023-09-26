@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
+    "@skagami/gatsby-plugin-dark-mode": "^2.0.0",
     "gatsby": "^5.10.0",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-manifest": "^5.10.0",
