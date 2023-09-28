@@ -25,7 +25,7 @@
     }
 
     .icon-color-text {
-        color: var(--textNormal);
+        color: var(--icon);
     }
 
     .paragraph-color-text {
@@ -43,6 +43,7 @@
     .cool-button-text-color {
         color: var(--textNormal);
     }
+
     /* ^^ CHANGE COLORS ABOVE ^^ */
 
     /* Styles */
@@ -103,11 +104,14 @@
 
     /* CHANGE COLORS BELOW */
     body {
-        --bg: white;
-        --textNormal: rgba(25, 54, 83, 1);
-        --textTitle: #222;
-        --textLink: blue;
+        --bg: #fafafa;
+        --hoverBg: #e2e8f0; /* slate-200 */
+        --textNormal: #0f172a; /* slate-900 */
+        --textTitle: #334155; /* slate-700 */
+        --textLink: #0284c7; /* sky-600 */
         --hr: hsla(0, 0%, 0%, 0.2);
+        --cardBg: #f1f5f9; /* slate-100 */
+        --icon: #64748b; /* slate-500 */
 
         background-color: var(--bg);
     }
@@ -115,13 +119,14 @@
     body.dark {
         -webkit-font-smoothing: antialiased;
       
-        --bg: #0f172a; /* slate-900 */
-        --hoverBg: #0c4a6e;
+        --bg: #23272f; /* slate-900 */
+        --hoverBg: #334155; /* sky-900 */
         --textNormal: #cbd5e1;
         --textTitle:#f8fafc;
-        --textLink: #e2e8f0;
+        --textLink: #0ea5e9; /* sky-500 */
         --hr: hsla(0, 0%, 100%, 0.2);
-        --cardBg: #1e293b; /* slate-800 */
+        --cardBg: #334155; /* slate-700 */
+        --icon: #cbd5e1; /*slate-300 */
     }
     /* CHANGE COLORS ABOVE */
 
