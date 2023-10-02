@@ -1,7 +1,5 @@
 import * as React from "react"
 import { FaLinkedin, FaGithub } from "react-icons/fa"
-import { SiHackthebox } from "react-icons/si"
-import { PiYoutubeLogoFill } from "react-icons/pi"
 
 export const icons = [
     { 
@@ -11,13 +9,5 @@ export const icons = [
     { 
         name: <FaGithub size={30} />,
         href: 'https://github.com/dan0005/'
-    },
-    {
-        name: <SiHackthebox size={30} />,
-        href: 'https://app.hackthebox.com/'
-    },
-    {
-        name: <PiYoutubeLogoFill size={30} />,
-        href: 'https://www.youtube.com/'
     }
 ]
