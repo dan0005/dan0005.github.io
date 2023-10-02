@@ -1,15 +1,15 @@
 import * as React from "react"
-import Head from "./Head"
 import { DESC, JOB_TITLE, NAME } from "../content/data/titleDetails"
 import { icons } from "../content/site/socialIcons"
 import CoolButton from "./CoolButton"
 import Icons from "./Icons"
 import { linkInformation } from "../content/site/links"
 import { StaticImage } from "gatsby-plugin-image"
+import Layout from "./Layout"
 
 export default function SideBarLayout(props) {
-    return (<div className="bg-white flex flex-col h-screen justify-between antialiased">
-            <Head />
+    return (<Layout>
+            <div className="flex flex-col h-screen justify-between antialiased">
             <div className="min-h-screen w-screen overflow-x-auto hidden lg:flex paragraph-color-bg">
                 {/* Left bar*/}
                 <div className="w-[40%] absolute" >
@@ -73,5 +73,6 @@ export default function SideBarLayout(props) {
                 </div>
             </div>
         </div>
+        </Layout>
     )
 }

@@ -3,4 +3,4 @@ export const NAME = "Daniel Newton"
 export const JOB_TITLE = "Cloud Wizard";
 
 export const DESC = 
-`Certified Cloud Developer, Full Stack Problem Solver, & Cleared Technical Leader`
+`Full stack cloud developer and team lead, specialized in DoD software solutions.`

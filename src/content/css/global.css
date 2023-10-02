@@ -3,42 +3,47 @@
 @tailwind utilities;
 
 @layer components {
-    /* CHANGE COLORS BELOW */
+
     .primary-color-text {
-        @apply text-sky-800;
+        color: var(--textTitle);
     }
 
     .primary-color-bg {
-        @apply bg-sky-800;
+        background-color: var(--hoverBg);
     }
 
     .secondary-color-text {
-        @apply text-sky-950;
+        color: var(--textNormal);
     }
 
     .tertiary-color-text {
-        @apply text-gray-500;
+        color: var(--textNormal);
     }
 
     .tertiary-color-bg {
-        @apply bg-slate-500;
+        background-color: var(--textNormal);
     }
 
     .icon-color-text {
-        @apply text-gray-400;
+        color: var(--icon);
     }
 
     .paragraph-color-text {
-        @apply text-black;
+        color: var(--textNormal);
     }
 
     .paragraph-color-bg {
-        @apply bg-white;
+        background-color: var(--bg);
+    }
+
+    .card-color-bg {
+        background-color: var(--cardBg);
     }
 
     .cool-button-text-color {
-        @apply text-white;
+        color: var(--textNormal);
     }
+
     /* ^^ CHANGE COLORS ABOVE ^^ */
 
     /* Styles */
@@ -46,7 +51,7 @@
         @apply primary-color-text;
         @apply font-bold;
         @apply text-left;
-    }  
+    }
 
     .secondary-text {
         @apply secondary-color-text;
@@ -62,7 +67,7 @@
     /* Cards */
     .dynamic-card {
         @apply rounded-xl;
-        @apply paragraph-color-bg;
+        @apply card-color-bg;
         @apply bg-opacity-50;
         @apply border-2;
         @apply border-slate-500;
@@ -96,6 +101,34 @@
     html {
       font-family: Helvetica;
     }
+
+    /* CHANGE COLORS BELOW */
+    body {
+        --bg: #fafafa;
+        --hoverBg: #e2e8f0; /* slate-200 */
+        --textNormal: #0f172a; /* slate-900 */
+        --textTitle: #334155; /* slate-700 */
+        --textLink: #0284c7; /* sky-600 */
+        --hr: hsla(0, 0%, 0%, 0.2);
+        --cardBg: #f1f5f9; /* slate-100 */
+        --icon: #64748b; /* slate-500 */
+
+        background-color: var(--bg);
+    }
+      
+    body.dark {
+        -webkit-font-smoothing: antialiased;
+      
+        --bg: #23272f; /* slate-900 */
+        --hoverBg: #334155; /* sky-900 */
+        --textNormal: #cbd5e1;
+        --textTitle:#f8fafc;
+        --textLink: #0ea5e9; /* sky-500 */
+        --hr: hsla(0, 0%, 100%, 0.2);
+        --cardBg: #334155; /* slate-700 */
+        --icon: #cbd5e1; /*slate-300 */
+    }
+    /* CHANGE COLORS ABOVE */
 
     h1 {
         @apply text-3xl;

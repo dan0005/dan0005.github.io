@@ -1,16 +1,15 @@
 import * as React from "react"
-import Head from "../components/Head";
 import CoolButton from "../components/CoolButton";
 import Icons from "../components/Icons";
 import { linkInformation } from "../content/site/links"
 import { icons } from "../content/site/socialIcons";
 import { NAME, JOB_TITLE } from "../content/data/titleDetails";
 import { StaticImage } from "gatsby-plugin-image";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div className="">
-        <Head />
+    <Layout>
         <div className="min-h-screen w-screen hidden lg:block overflow-hidden screen-background-style">
             <StaticImage src={'../../static/headshot.jpg'} className="!w-[20%] !rounded-3xl !mx-auto !mt-[8%] !z-50 !flex !justify-center !items-center"></StaticImage>
 
@@ -75,5 +74,5 @@ export default function Home() {
             ))}
         </div>
     </div>
-</div>
+</Layout>
 )}
